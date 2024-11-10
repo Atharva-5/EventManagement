@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Event</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>Create a New Event</h1>
+</header>
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="view-events.html">View Events</a></li>
+    </ul>
+</nav>
+<section>
+    <form action="view-events.html" method="post" id="createEventForm">
+        <label for="eventTitle">Event Title:</label><br>
+        <input type="text" id="eventTitle" name="eventTitle" required><br><br>
+
+        <label for="eventDescription">Event Description:</label><br>
+        <textarea id="eventDescription" name="eventDescription" required></textarea><br><br>
+
+        <label for="eventDate">Event Date:</label><br>
+        <input type="date" id="eventDate" name="eventDate" required><br><br>
+
+        <label for="eventTime">Event Time:</label><br>
+        <input type="time" id="eventTime" name="eventTime" required><br><br>
+
+        <label for="eventLocation">Event Location:</label><br>
+        <input type="text" id="eventLocation" name="eventLocation" required><br><br>
+
+        <button type="submit">Create Event</button>
+    </form>
+</section>
+</body>
+</html>
